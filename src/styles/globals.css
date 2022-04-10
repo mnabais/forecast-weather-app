@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+}
+
+:root {
+  --dark-grey: #0B0C1E;
+  --grey: #1B1D2E;
+  --black: #000000;
+  --white: #ffffff;
+  --red: #FFA0A0;
+  --blue: #3C8DEC;
+  --dark-blue: #0e1326;
+  --light-blue: #6AAFFF;
+}
+
+html,
+body {
+  background: var(--dark-grey);
+  font: 400 0.8rem 'Manrope', sans-serif;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}

@@ -1,0 +1,26 @@
+.forecastWrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem 1rem;
+    margin-bottom: 3rem;
+}
+
+/* Small devices (portrait tablets and large phones, 768px and up) */
+@media (min-width: 768px) {
+    .forecastWrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem 1rem;
+        margin-bottom: 3rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1024 and up) */
+@media (min-width: 1024px) {
+    .forecastWrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 1rem 1rem;
+        margin-bottom: 3rem;
+    }
+}

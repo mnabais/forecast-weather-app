@@ -1,0 +1,68 @@
+.forecastItemWrapper {
+    width: 100%;
+    height: 5.8rem;
+    background-color: var(--grey);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.8rem;
+}
+
+.weekday {
+    color: var(--light-blue);
+    font-size: 1.4rem;
+    font-weight: 400;
+    flex-grow: 2;
+    text-align: left;
+}
+
+.iconWrapper {
+    width: 6rem;
+    margin-right: 1rem;
+}
+
+.temperatureWrapper {
+    color: var(--white);
+    font-size: 2rem;
+}
+
+.maxTemperature {
+    font-weight: 800;
+}
+
+.minTemperature {
+    font-weight: 400;
+}
+
+@media (min-width: 768px) {
+    .weekday {
+        margin-bottom: 1.6rem;
+        flex-grow: unset;
+    }
+
+    .iconWrapper {
+        margin-right: 0;
+        margin-bottom: 0.9rem;
+        width: 100%;
+    }
+
+    .forecastItemWrapper {
+        padding: 0;
+        flex-direction: column;
+        width: 16.5rem;
+        height: 17.5rem;
+        background-color: var(--grey);
+        border-radius: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .forecastItemWrapper {
+        width: 16.5rem;
+        height: 17.5rem;
+        background-color: var(--grey);
+        border-radius: 1rem;
+    }
+}

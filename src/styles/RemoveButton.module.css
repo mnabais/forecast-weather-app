@@ -1,0 +1,13 @@
+.removeButtonWrapper {
+    width: 16.5rem;
+    height: 2.9rem;
+    background-color: var(--grey);
+    border-radius: 2rem;
+    color: var(--white);
+    border: none;
+    transition: 0.4s;
+}
+
+.removeButtonWrapper:hover {
+    background-color: var(--red);
+}
