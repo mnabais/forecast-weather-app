@@ -15,6 +15,7 @@
     height: 8rem;
     align-self: center;
 }
+
 .ldsDualRing:after {
     content: " ";
     display: block;

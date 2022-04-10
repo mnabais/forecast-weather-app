@@ -23,7 +23,7 @@
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
     .weatherAppContainer {
         width: unset;
         padding: 11.3rem 0 2.8rem;

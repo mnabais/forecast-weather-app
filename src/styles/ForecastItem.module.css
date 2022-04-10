@@ -31,7 +31,6 @@
 .maxTemperature {
     font-weight: 800;
 }
-
 .minTemperature {
     font-weight: 400;
 }
@@ -58,7 +57,7 @@
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
     .forecastItemWrapper {
         width: 16.5rem;
         height: 17.5rem;

@@ -15,8 +15,8 @@
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1024 and up) */
-@media (min-width: 1024px) {
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1200px) {
     .forecastWrapper {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
